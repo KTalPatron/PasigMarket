@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wooden Table Effect</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;background-image: url('Pasig-bg.png');
+      
+      background-repeat: repeat;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: #1e51ae;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .date {
+      font-size: 12px;
+      text-align: right;
+    }
+
+    .logo {
+      height: 20px;  
+      margin-bottom: 5px;
+    }
+    .center-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 50px 50px;
+      gap: 15px;
+    }
+
+    .logo-img {
+      height: 80px;
+    }
+
+    .market-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #0B2A63;
+    }
+    .logo img {
+      width: 50px;
+      height: auto;
+    }
+
+    input[type="radio"], input[type="checkbox"] {
+      margin-right: 10px;
+      accent-color: #4c61af; /* Color for the radio/checkbox */
+    }
+
+    .radio-group, .checkbox-group {
+      margin-bottom: 15px;
+    }
+
+    .radio-group input[type="radio"],
+    .checkbox-group input[type="checkbox"] {
+      margin-bottom: 8px;
+    }
+
+input[type="text"] {
+  width: 85%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: left 0;
+}
+
+    .content {
+      max-width: 600px;
+      margin: 35px auto;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+        <div class="logo-section">
+          <div class="logo-text">MUTYA360 <span class="version">v1.0.0</span></div>
+        </div>
+    
+        <img class="logo-img" src = "Pasig-logo.png"  alt="Pasig Logo">
+    
+        <div class="date">APRIL 22, 2025 | TUESDAY</div>
+      </div>
+    
+    
+      <div class="center-title">
+    
+        <div class="market-title"><b>MUTYA NG PASIG MEGA MARKET</b></div>
+      </div>
+    
+  
+
+  <div class="content">
+    <h1>WELCOME TO PASIG PUBLIC MARKET</h1>
+    <p>Please take time to take this survey for your registration!</p>
+  </div>
+
+  <div class= "content">
+    <h2 align ="left">Enter your Business Name</h2>
+    <input type="text" placeholder="Business Name" />
+  
+    
+  </div>
+
+
+  <div class="content">
+    <h2 align = "left">What produce do you sell?</h2>
+    <form align ="left">
+        <label for="produce">Select produce:</label><br>
+        <select id="produce" name="produce" style="width: 100%; padding: 10px; font-size: 16px;">
+          <option value="" disabled selected>Select an option</option>
+          <option value="meat">Meat (Beef, Chicken, Pork)</option>
+          <option value="vegetables">Vegetables</option>
+          <option value="fruits">Fish</option>
+        </select>
+     </form>
+  </div>
+
+  
+  <div class= "content">
+    <h2 align ="left">Enter your Permit Number</h2>
+    <input type="text" placeholder="Permit Number" />
+  
+    
+  </div>
+
+  <div class= "content">
+    <h2 align ="left">Sanitary Practices </h2>
+    <form align ="left">
+        <input type = "radio" id = "HTML" name = "fav_language" value = "HTML">
+        <label for = "HTML"> Good </label> <br>
+        <input type = "radio" id = "CSS" name = "fav_language" value = "CSS">
+        <label for = "CSS"> Fair </label> <br>
+        <input type = "radio" id = "JavaScript" name = "fav_language" value = "JavaScript">
+        <label for = "JavaScript"> Poor </label> <br>
+
+     </form>
+  
+    
+  </div>
+
+  <div class= "content">
+    <h2 align ="left">Stall Cleanliness </h2>
+    <form  align ="left">
+        <input type = "checkbox" id = "HTML" name = "fav_language" value = "HTML">
+        <label for = "HTML"> Daily Cleaning </label> <br>
+        <input type = "checkbox" id = "CSS" name = "fav_language" value = "CSS">
+        <label for = "CSS"> Waste Disposal </label> <br>
+        
+
+     </form>
+  
+     
+</body>
+</html>
